@@ -1,0 +1,7 @@
+// step plan for server
+1. docker container set
+2. compose container
+3. ignitions iso boot
+4. ignitions with separate volume partition
+5. iPXE ignition
+

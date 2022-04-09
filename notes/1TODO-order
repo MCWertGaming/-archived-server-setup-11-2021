@@ -1,0 +1,19 @@
+// TODO order
+
+1. Install NFS server
+2. Install PostgreSQL server
+3. Install step-ca
+4. Install adguard dns
+5. Install Keycloak
+6. move adguard to fcos
+7. install Hashicorp vault
+8. setup fcos Gitea + Drone machine
+9. fcos drone-agend with cleanup
+9. move infrastructure to Gitea
+10. setup fcos nexus
+11. move docker to nexus and automate with drone
+12. fcos nextcloud
+13. fcos prometheus + grafana
+14. Internal status page
+15. DMZ
+16. expose

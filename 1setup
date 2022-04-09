@@ -1,0 +1,34 @@
+// small set up stuff
+
+CA
+- lxc
+
+DNS
+- docker
+  - adguard
+  - certbot
+
+Vault
+- lxc
+- caddy
+
+Keycloak
+- docker
+  - keycloak
+  - caddy
+
+Nexus
+- docker
+  - nexus
+  - caddy
+
+DevOps
+- lxc
+  - gitea
+  - drone
+
+Agend
+- docker
+  - drone agend
+
+

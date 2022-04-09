@@ -1,0 +1,21 @@
+// networks
+
+# 10.10.11
+
+10.10.11.1 - gateway
+
+# linux
+10.10.11.10 - 99
+
+# Windows
+10.10.11.100 - 199
+
+
+# taken
+10.10.11.10 (nfs.lcl.leven.dev) - NFS Share
+
+
+# Domain range
+<XX>.lcl.leven.dev -> local services / hosts
+<XX>.leven.dev -> public / private services
+

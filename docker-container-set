@@ -1,0 +1,54 @@
+// docker container sets
+
+// 1. iPXE
+- foreman / matchbox
+- (Caddy)
+
+// 1. CA
+- step-ca (docker hub)
+
+// 2. DNS
+- Adguard   (docker hub)
+- (certbot)
+
+// 3. Vault
+- Hashicorp vault (rh)
+- caddy (private)
+
+// 4. Nexus
+- nexus (rh)
+- caddy (private)
+
+// 5. DevOps
+- Gitea    (docker hub)
+- DroneCI  (docker hub)
+- Caddy (private)
+
+// 6. Monitoring
+- Grafana (rh)
+- Prometheus (rh)
+- Caddy (private)
+
+
+// -----
+
+// 6. Drone runner
+- Drone runner
+
+// 7. TeamCity runner
+- TeamCity runner
+
+// 8. Github runner
+- Github runner
+
+// 9. Media server
+- JellyFin
+- Caddy
+
+// Minecraft
+- Vanilla server
+- Modded server
+
+// DMZ
+- Caddy public
+- Caddy private

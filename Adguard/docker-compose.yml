@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  letsencrypt:
+    image: linuxserver/letsencrypt
+    container_name: letsencrypt
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+      - URL=leven.dev
+      - SUBDOMAINS=dns
+      - VALIDATION=dns
+      - DNSPLUGIN=cloudflare
+      - EMAIL=admin@leven.dev
+      - DHLEVEL=4096
+    volumes:
+      - le_config:/config
+    restart: unless-stopped
+
+volumes:
+  le_config:
+    external: true

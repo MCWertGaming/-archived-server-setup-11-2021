@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+    step-ca:
+        image: smallstep/step-ca
+        restart: unless-stopped
+        ports:
+            - "443:443"
+        volumes:
+            - step_data:/home/step
+volumes:
+  step_data:
+    external: true
+
+
+
+docker service create \
+    --mount 'type=volume,src=step_data,dst=<CONTAINER-PATH>,volume-driver=local,volume-opt=type=nfs,volume-opt=device=<nfs-server>:<nfs-path>,"volume-opt=o=addr=<nfs-address>,vers=4,soft,timeo=180,bg,tcp,rw"'
+    --name myservice \
+    <IMAGE>
+
+docker volume create --name step_data --driver local \
+--opt type=nfs4 \
+--opt o=addr=10.10.11.40,rw,noatime \
+--opt device=:nfs-server/stepca
+

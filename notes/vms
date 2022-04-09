@@ -1,0 +1,36 @@
+// vms
+
+// rhel
+- NFS
+- PostgreSQL
+
+// coreos
++ CA
++ DNS 
++ Keycloak
+- dev
+  + gitea
+  + drone
++ agend
+- monitoring
+  + grafana
+  + promethes
++ nexus
+- 
+
+
+
+
+// rhel
+(0. NFS)
+1. CA
+2. DNS
+3. PostgreSQL
+4. Keycloak, gitea, drone, grafana, prometheus, nexus, Vault
+5. drone agend
+6. IRC, rocket.chat, (plex), (Jellyfin), web office, rss reader, search engine, gitpod, http fileshare, yt front, 
+7. Homepage, OFB, KiwiIRC, Passcrypt, (papa blog),
+8. minecraft
+9. AMP
+10. DMZ internal
+11. DMZ external

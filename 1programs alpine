@@ -1,0 +1,18 @@
+// program list
+
+// on alpine
+gitea
+drone
+Caddy
+step-certificates
+vault
+prometheus
+grafana
+
+
+// not there
+nexus
+adguard
+
+// not even docker
+TeamCity

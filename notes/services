@@ -1,0 +1,23 @@
+// Services list
+
+// important
+Gitea
+- Keycloak login
+- PostgreSQL
+Drone
+- Gitea login
+Nextcloud
+- Keycloak login
+- PostgreSQL
+Grafana
+- Keycloak
+Prometheus
+- Keycloak
+step-ca
+nexus
+- caddy auth portal
+Keycloak
+adguard
+- caddy auth portal?
+Hashicorp vault
+- Keycloak login

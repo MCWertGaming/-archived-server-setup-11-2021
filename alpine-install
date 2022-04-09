@@ -1,0 +1,16 @@
+# making alpine ready
+
+echo "https://dl-cdn.alpinelinux.org/alpine/latest-stable/main
+https://dl-cdn.alpinelinux.org/alpine/latest-stable/community" > /etc/apk/repositories
+
+apk update
+apk upgrade
+apk add docker docker-compose
+
+rc-update add docker
+
+reboot
+
+
+echo "https://dl-cdn.alpinelinux.org/alpine/edge/main
+https://dl-cdn.alpinelinux.org/alpine/edge/community" > /etc/apk/repositories
